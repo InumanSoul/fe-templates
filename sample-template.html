@@ -10,15 +10,15 @@
   <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
-    <div class="grid grid-cols-8 gap-9">
+    <div class="grid grid-cols-8">
       <!-- First Column -->
-      <div class="bg-slate-100 p-5 col-span-8 md:col-span-4 lg:col-span-3 border-r sticky top-0 h-screen">
+      <div class="bg-slate-100 dark:bg-slate-800 dark:dark:text-gray-50 p-5 col-span-8 md:col-span-4 lg:col-span-3 border-r dark:border-slate-900 sticky top-0 h-screen">
         <header class="py-1 mb-5">
           <div class="flex items-center justify-between mx-auto">
             <img src="https://logos-world.net/wp-content/uploads/2020/12/Lays-Logo-700x394.png" class="merchant-logo" alt="logo"/>
             <div>
               <label class="mr-2 text-sm">Help</label>
-              <select class="border border-slate-400 rounded p-1 text-sm">
+              <select class="border border-slate-400 rounded p-1 text-sm dark:text-gray-50 dark:bg-slate-700">
                 <option>English</option>
                 <option>Spanish</option>
                 <option>Portuguese</option>
@@ -79,7 +79,7 @@
         </footer>
       </div>
       <!-- Secon column -->
-      <div class="px-5 lg:p-0 lg:pl-5 col-span-7 md:col-span-4 lg:col-span-5">
+      <div class="px-5 lg:p-0 lg:pl-10 col-span-7 md:col-span-4 lg:col-span-5 dark:bg-slate-700 dark:text-gray-50">
         <div class="w-3/6 mr-auto">
           <h3 class="text-3xl mb-7 mt-28 font-bold">Secure pucharse</h3>
           <p class="text-sm text-slate-400 mb-9">
@@ -88,61 +88,61 @@
           <form>
             <div class="mb-4">
               <label class="font-bold text-sm">Choose offer</label>
-              <select class="border border-slate-400 rounded py-2 px-4 w-full">
+              <select class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700">
                 <option>Sample trial offer</option>
               </select>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Email</label>
-              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full" placeholder="email@email.com"/>
+              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700" placeholder="email@email.com"/>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Username</label>
-              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full" placeholder="Username"/>
+              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700" placeholder="Username"/>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Password</label>
-              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full" placeholder="Password"/>
+              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700" placeholder="Password"/>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Fullname</label>
-              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full" placeholder="Fullname"/>
+              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700" placeholder="Fullname"/>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Country</label>
-              <select class="border border-slate-400 rounded py-2 px-4 w-full">
+              <select class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700">
                 <option>Spain</option>
               </select>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Payment method</label>
-              <select class="border border-slate-400 rounded py-2 px-4 w-full">
+              <select class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700">
                 <option>Visa</option>
                 <option>Mastercard</option>
               </select>
             </div>
             <div class="mb-4">
               <label class="font-bold text-sm">Card number</label>
-              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full" placeholder="4111 **** 4444 8888"/>
+              <input type="text" class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700" placeholder="4111 **** 4444 8888"/>
             </div>
             <div class="columns-2">
               <div class="mb-4">
                 <label class="font-bold text-sm">Expiration date</label>
-                <select class="border border-slate-400 rounded py-2 px-4 w-full">
+                <select class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700">
                   <option>January</option>
                   <option>Februrary</option>
                 </select>
               </div>
               <div class="mb-4">
                 <label class="font-bold text-sm">Expiration date</label>
-                <select class="border border-slate-400 rounded py-2 px-4 w-full">
+                <select class="border border-slate-400 rounded py-2 px-4 w-full dark:bg-slate-700">
                   <option>Year</option>
                   <option>1990</option>
                 </select>
             </div>
             </div>
           </form>
-          <button type="button" class="rounded-full px-4 py-2.5 bg-green-500 hover:bg-green-600 text-white font-bold uppercase w-full">Continue</button>
+          <button type="button" class="rounded-full drop-shadow hover:drop-shadow-md px-4 py-2.5 bg-green-500 hover:bg-green-600 text-white font-bold uppercase w-full transition-all duration-150">Continue</button>
           <div class="text-slate-400 text-sm mt-3 mb-8">
             <p>All prices are in $ USD (United States)</p>
             <p>You will gain access to Templates portfolio site (adult) for $1.95 for 1 day. If not cancelled within the trial period you will be charged $28.95 every month until you cancel.</p>
