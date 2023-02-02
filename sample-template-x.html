@@ -25,14 +25,10 @@
   </header>
   <div class="bg-black text-neutral-50 pt-5 pb-6">
     <div class="container mx-auto">
-      <img src="./imgs/x-logo.svg" alt="merchant" class="mx-auto w-36 mt-8"/>
+      <img src="./imgs/logo-xvred.png" alt="merchant" class="mx-auto w-52 mt-8"/>
       <div class="grid grid-cols-12 gap-6">
         <div class="col-span-12">
           <div class="w-full lg:w-3/6">
-            <h3 class="text-3xl mt-8 mb-3 font-bold">Secure purchase</h3>
-            <p class="text-sm text-slate-400 mb-3">
-              To protect your privacy "Templates portfolio site (adult)" will not appear on your bank statement.  Any of the following may appear "VendoStore*Vendo - VendoStore*Vendo".
-            </p>
             <p class="text-sm text-slate-400 mb-5">All prices are in $ USD (United States)</p>
 
           </div>
@@ -40,9 +36,9 @@
         <div class="col-span-12 lg:col-span-6">
           <form>
             <div class="mb-4">
-              <label class="font-bold text-sm">Choose offer</label>
+              <label class="font-bold text-sm">Select a way to pay</label>
               <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
-                <option>Sample trial offer</option>
+                <option>Visa</option>
               </select>
             </div>
             <div class="mb-4">
@@ -50,25 +46,18 @@
               <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="email@email.com"/>
             </div>
             <div class="mb-4">
-              <label class="font-bold text-sm">Username</label>
-              <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="Username"/>
-            </div>
-            <div class="mb-4">
               <label class="font-bold text-sm">Password</label>
-              <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="Password"/>
+              <input type="password" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="123****456"/>
             </div>
             <div class="mb-4">
-              <label class="font-bold text-sm">Fullname</label>
-              <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="Fullname"/>
+              <label class="font-bold text-sm">Country</label>
+              <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
+                <option>United States</option>
+                <option>Spain</option>
+              </select>
             </div>
         </div>
         <div class="col-span-12 lg:col-span-6">
-          <div class="mb-4">
-            <label class="font-bold text-sm">Country</label>
-            <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
-              <option>Spain</option>
-            </select>
-          </div>
           <div class="mb-4">
             <label class="font-bold text-sm">Payment method</label>
             <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
@@ -77,31 +66,46 @@
             </select>
           </div>  
           <div class="mb-4">
-              <label class="font-bold text-sm">Card number</label>
-              <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="4111 **** 4444 8888"/>
-            </div>
-            <div class="columns-2">
-              <div class="mb-4">
-                <label class="font-bold text-sm">Expiration date</label>
-                <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
-                  <option>January</option>
-                  <option>Februrary</option>
-                </select>
-              </div>
-              <div class="mb-4">
-                <label class="font-bold text-sm">Expiration date</label>
-                <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
-                  <option>Year</option>
-                  <option>1990</option>
-                </select>
-            </div>
-            </div>
-          </form>
-          <button type="button" class="rounded-full drop-shadow hover:drop-shadow-md px-4 py-2.5 bg-green-500 hover:bg-green-600 text-white font-bold uppercase w-full transition-all duration-150">Continue</button>
-          <div class="text-slate-400 text-sm mt-3">
-            <p>You will gain access to Templates portfolio site (adult) for $1.95 for 1 day. If not cancelled within the trial period you will be charged $28.95 every month until you cancel.</p>
-            <p>I certify that I am 18 years or older and agree to Vendo's Terms & Conditions of this purchase, and explicitly consent to Vendo's Privacy Policy</p>
+            <label class="font-bold text-sm">Card number</label>
+            <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="4111 **** 4444 8888"/>
           </div>
+          <div class="mb-4">
+            <label class="font-bold text-sm">CVV</label>
+            <input type="text" class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800" placeholder="123"/>
+          </div>
+          <div class="columns-2">
+            <div class="mb-4">
+              <label class="font-bold text-sm">Exp. Month</label>
+              <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
+                <option>January</option>
+                <option>Februrary</option>
+              </select>
+            </div>
+            <div class="mb-4">
+              <label class="font-bold text-sm">Exp. Year</label>
+              <select class="border border-neutral-500 rounded py-2 px-4 w-full bg-neutral-800">
+                <option>Year</option>
+                <option>1990</option>
+              </select>
+            </div>
+          </div>
+          </form>
+        </div>
+        <!-- Disclosures -->
+        <div class="col-span-6 text-slate-400 text-sm">
+          <p>
+            To protect your privacy "Templates portfolio site (adult)" will not appear on your bank statement.  Any of the following may appear "VendoStore*Vendo - VendoStore*Vendo".
+          </p>
+        </div>
+        <div class="col-span-6 text-slate-400 text-sm">
+          <p>
+            Get access to to Templates portfolio site (adult) for $1.95 for 1 day. If not cancelled within the trial period you will be charged $28.95 every month until you cancel.
+          </p>
+          <input type="checkbox" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" checked/>
+          <p>I certify that I am 18 years or older and agree to Vendo's Terms & Conditions of this purchase, and explicitly consent to Vendo's Privacy Policy</p>
+        </div>
+        <div class="col-span-4 col-start-5">
+          <button type="button" class="rounded-full drop-shadow hover:drop-shadow-md px-4 py-2.5 bg-green-500 hover:bg-green-600 text-white font-bold uppercase w-full transition-all duration-150">Continue</button>
         </div>
       </div>
     </div>
