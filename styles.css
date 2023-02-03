@@ -26,5 +26,11 @@ body {
 }
 
 .footer-logos img {
-  max-height: 20px;
+  width: auto;
+  padding: .35rem;
+  height: 2.25rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.15rem;
+  object-fit: contain;
 }
